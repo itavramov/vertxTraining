@@ -1,0 +1,1265 @@
+/*C7*/SET SCHEMA PUBLIC
+CREATE TABLE IF NOT EXISTS AUDIT (id INTEGER IDENTITY, operation varchar(250))
+INSERT INTO AUDIT VALUES(63,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":417.0,"ask":406.0,"volume":98000,"open":650.0,"shares":49600},"date":1597142361763,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(64,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":756.0,"ask":758.0,"volume":95000,"open":600.0,"shares":48105},"date":1597142364763,"amount":5,"owned":5}')
+COMMIT
+/*C5*/SET SCHEMA PUBLIC
+INSERT INTO AUDIT VALUES(65,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":461.0,"ask":461.0,"volume":98000,"open":650.0,"shares":49681},"date":1597142364765,"amount":4,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(66,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":666.0,"ask":632.0,"volume":95000,"open":600.0,"shares":48105},"date":1597142367763,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(67,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":452.0,"ask":447.0,"volume":98000,"open":650.0,"shares":49681},"date":1597142367766,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(68,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":408.0,"ask":406.0,"volume":98000,"open":650.0,"shares":49681},"date":1597142370788,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(69,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":383.0,"ask":376.0,"volume":98000,"open":650.0,"shares":49681},"date":1597142373766,"amount":4,"owned":4}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(70,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":355.0,"ask":357.0,"volume":98000,"open":650.0,"shares":49738},"date":1597142376763,"amount":4,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(71,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":735.0,"ask":696.0,"volume":95000,"open":600.0,"shares":48285},"date":1597142376761,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(72,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":631.0,"ask":625.0,"volume":95000,"open":600.0,"shares":48307},"date":1597142379764,"amount":5,"owned":10}')
+COMMIT
+INSERT INTO AUDIT VALUES(73,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":753.0,"ask":769.0,"volume":95000,"open":600.0,"shares":48307},"date":1597142382766,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(74,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":741.0,"ask":721.0,"volume":95000,"open":600.0,"shares":48342},"date":1597142385765,"amount":5,"owned":10}')
+COMMIT
+INSERT INTO AUDIT VALUES(75,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":681.0,"ask":679.0,"volume":95000,"open":600.0,"shares":48342},"date":1597142388765,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(76,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":559.0,"ask":563.0,"volume":95000,"open":600.0,"shares":48368},"date":1597142391763,"amount":5,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(77,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":566.0,"ask":580.0,"volume":95000,"open":600.0,"shares":48370},"date":1597142394760,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(78,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":324.0,"ask":314.0,"volume":98000,"open":650.0,"shares":49854},"date":1597142394763,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(79,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":499.0,"ask":535.0,"volume":95000,"open":600.0,"shares":48402},"date":1597142397763,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(80,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":322.0,"ask":322.0,"volume":98000,"open":650.0,"shares":49854},"date":1597142397765,"amount":4,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(81,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":632.0,"ask":626.0,"volume":95000,"open":600.0,"shares":48472},"date":1597142400762,"amount":5,"owned":15}')
+COMMIT
+INSERT INTO AUDIT VALUES(82,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":481.0,"ask":475.0,"volume":95000,"open":600.0,"shares":48538},"date":1597142409764,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(83,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":288.0,"ask":292.0,"volume":98000,"open":650.0,"shares":50005},"date":1597142409766,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(84,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":362.0,"ask":362.0,"volume":95000,"open":600.0,"shares":48580},"date":1597142412762,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(85,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":249.0,"ask":250.0,"volume":98000,"open":650.0,"shares":50009},"date":1597142412764,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(86,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":347.0,"ask":363.0,"volume":95000,"open":600.0,"shares":48647},"date":1597142415765,"amount":5,"owned":10}')
+COMMIT
+INSERT INTO AUDIT VALUES(87,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":488.0,"ask":456.0,"volume":95000,"open":600.0,"shares":48742},"date":1597142418762,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(88,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":241.0,"ask":227.0,"volume":98000,"open":650.0,"shares":50068},"date":1597142418764,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(89,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":174.0,"ask":190.0,"volume":98000,"open":650.0,"shares":50122},"date":1597142421764,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(90,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":208.0,"ask":211.0,"volume":98000,"open":650.0,"shares":50122},"date":1597142424765,"amount":4,"owned":4}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(91,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":410.0,"ask":386.0,"volume":95000,"open":600.0,"shares":48756},"date":1597142424763,"amount":5,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(92,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":502.0,"ask":507.0,"volume":95000,"open":600.0,"shares":48808},"date":1597142427758,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(93,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":148.0,"ask":155.0,"volume":98000,"open":650.0,"shares":50122},"date":1597142427760,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(94,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":408.0,"ask":394.0,"volume":95000,"open":600.0,"shares":48861},"date":1597142430762,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(95,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":171.0,"ask":170.0,"volume":98000,"open":650.0,"shares":50122},"date":1597142430765,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(96,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":532.0,"ask":512.0,"volume":95000,"open":600.0,"shares":48861},"date":1597142433756,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(97,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":115.0,"ask":138.0,"volume":98000,"open":650.0,"shares":50122},"date":1597142433762,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(98,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":583.0,"ask":611.0,"volume":95000,"open":600.0,"shares":48861},"date":1597142436764,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(99,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":112.0,"ask":91.0,"volume":98000,"open":650.0,"shares":50122},"date":1597142436770,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(100,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":67.0,"ask":54.0,"volume":98000,"open":650.0,"shares":50202},"date":1597142439769,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(101,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":503.0,"ask":488.0,"volume":95000,"open":600.0,"shares":48941},"date":1597142442757,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(102,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":18.0,"ask":7.0,"volume":98000,"open":650.0,"shares":50278},"date":1597142442758,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(103,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":642.0,"ask":606.0,"volume":95000,"open":600.0,"shares":48941},"date":1597142445766,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(104,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50278},"date":1597142445773,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(105,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":564.0,"ask":562.0,"volume":95000,"open":600.0,"shares":48976},"date":1597142448772,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(106,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50305},"date":1597142448776,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(107,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":600.0,"ask":610.0,"volume":95000,"open":600.0,"shares":48989},"date":1597142451763,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(108,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50404},"date":1597142451766,"amount":4,"owned":16}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(109,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50404},"date":1597142454773,"amount":4,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(110,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":708.0,"ask":697.0,"volume":95000,"open":600.0,"shares":49030},"date":1597142454771,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(111,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":780.0,"ask":806.0,"volume":95000,"open":600.0,"shares":49128},"date":1597142457762,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(112,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50412},"date":1597142457763,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(113,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50412},"date":1597142460761,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(114,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50440},"date":1597142463760,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(115,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":786.0,"ask":811.0,"volume":95000,"open":600.0,"shares":49232},"date":1597142466761,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(116,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50440},"date":1597142466763,"amount":4,"owned":28}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(117,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":907.0,"ask":929.0,"volume":95000,"open":600.0,"shares":49314},"date":1597142469759,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(118,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":18.0,"ask":30.0,"volume":98000,"open":650.0,"shares":50447},"date":1597142469760,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(119,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":30.0,"ask":41.0,"volume":98000,"open":650.0,"shares":50449},"date":1597142472764,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(120,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":9.0,"ask":6.0,"volume":98000,"open":650.0,"shares":50508},"date":1597142475759,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(121,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50508},"date":1597142478764,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(122,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":51.0,"ask":50.0,"volume":98000,"open":650.0,"shares":50508},"date":1597142481759,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(123,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":78.0,"ask":57.0,"volume":98000,"open":650.0,"shares":50508},"date":1597142484757,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(124,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":35.0,"ask":29.0,"volume":98000,"open":650.0,"shares":50508},"date":1597142487758,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(125,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50568},"date":1597142490757,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(126,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50663},"date":1597142493757,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(127,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":962.0,"ask":926.0,"volume":95000,"open":600.0,"shares":49652},"date":1597142496759,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(128,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":55.0,"ask":54.0,"volume":98000,"open":650.0,"shares":50663},"date":1597142496760,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(129,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":1007.0,"ask":1050.0,"volume":95000,"open":600.0,"shares":49728},"date":1597142499756,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(130,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50663},"date":1597142499757,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(131,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":55.0,"ask":60.0,"volume":98000,"open":650.0,"shares":50663},"date":1597142502754,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(132,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":1095.0,"ask":1106.0,"volume":95000,"open":600.0,"shares":49768},"date":1597142505755,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(133,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":7.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50711},"date":1597142505757,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(134,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":4.0,"volume":98000,"open":650.0,"shares":50803},"date":1597142508753,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(135,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":50843},"date":1597142511754,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(136,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":43.0,"ask":50.0,"volume":98000,"open":650.0,"shares":50885},"date":1597142514757,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(137,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":4.0,"ask":17.0,"volume":98000,"open":650.0,"shares":50885},"date":1597142517761,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(138,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":73.0,"ask":68.0,"volume":98000,"open":650.0,"shares":50885},"date":1597142520766,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(139,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":938.0,"ask":959.0,"volume":95000,"open":600.0,"shares":49938},"date":1597142523758,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(140,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":11.0,"ask":25.0,"volume":98000,"open":650.0,"shares":50943},"date":1597142523760,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(141,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":72.0,"ask":58.0,"volume":98000,"open":650.0,"shares":50943},"date":1597142526758,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(142,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":925.0,"ask":916.0,"volume":95000,"open":600.0,"shares":50011},"date":1597142529753,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(143,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":87.0,"ask":66.0,"volume":98000,"open":650.0,"shares":51023},"date":1597142529754,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(144,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":94.0,"ask":100.0,"volume":98000,"open":650.0,"shares":51023},"date":1597142532757,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(145,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":67.0,"ask":54.0,"volume":98000,"open":650.0,"shares":51026},"date":1597142535765,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(146,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":911.0,"ask":918.0,"volume":95000,"open":600.0,"shares":50057},"date":1597142538753,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(147,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":67.0,"ask":43.0,"volume":98000,"open":650.0,"shares":51108},"date":1597142538754,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(148,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":960.0,"ask":955.0,"volume":95000,"open":600.0,"shares":50057},"date":1597142541757,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(149,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":5.0,"ask":25.0,"volume":98000,"open":650.0,"shares":51108},"date":1597142541758,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(150,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":807.0,"ask":791.0,"volume":95000,"open":600.0,"shares":50057},"date":1597142544753,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(151,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":1.0,"ask":1.0,"volume":98000,"open":650.0,"shares":51199},"date":1597142544754,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(152,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":784.0,"ask":757.0,"volume":95000,"open":600.0,"shares":50109},"date":1597142547757,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(153,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":22.0,"ask":26.0,"volume":98000,"open":650.0,"shares":51227},"date":1597142547759,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(154,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":58.0,"ask":48.0,"volume":98000,"open":650.0,"shares":51293},"date":1597142550754,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(155,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":70.0,"ask":68.0,"volume":98000,"open":650.0,"shares":51293},"date":1597142553757,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(156,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":98.0,"ask":89.0,"volume":98000,"open":650.0,"shares":51309},"date":1597142556761,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(157,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":33.0,"ask":22.0,"volume":98000,"open":650.0,"shares":51332},"date":1597142559757,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(158,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":75.0,"ask":75.0,"volume":98000,"open":650.0,"shares":51332},"date":1597142562757,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(159,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":23.0,"ask":14.0,"volume":98000,"open":650.0,"shares":51332},"date":1597142565755,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(160,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":72.0,"ask":69.0,"volume":98000,"open":650.0,"shares":51396},"date":1597142568756,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(161,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":23.0,"ask":26.0,"volume":98000,"open":650.0,"shares":51407},"date":1597142571753,"amount":4,"owned":40}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(162,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":62.0,"ask":66.0,"volume":98000,"open":650.0,"shares":51407},"date":1597142574754,"amount":4,"owned":44}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(163,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":682.0,"ask":687.0,"volume":95000,"open":600.0,"shares":50397},"date":1597142574751,"amount":5,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(164,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":815.0,"ask":815.0,"volume":95000,"open":600.0,"shares":50433},"date":1597142577756,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(165,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":5.0,"ask":1.0,"volume":98000,"open":650.0,"shares":51463},"date":1597142577757,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(166,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":691.0,"ask":701.0,"volume":95000,"open":600.0,"shares":50433},"date":1597142580752,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(167,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":62.0,"ask":68.0,"volume":98000,"open":650.0,"shares":51527},"date":1597142580756,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(168,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":2.0,"ask":14.0,"volume":98000,"open":650.0,"shares":51583},"date":1597142583755,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(169,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":696.0,"ask":656.0,"volume":95000,"open":600.0,"shares":50481},"date":1597142586752,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(170,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":54.0,"ask":48.0,"volume":98000,"open":650.0,"shares":51583},"date":1597142586753,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(171,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":86.0,"ask":96.0,"volume":98000,"open":650.0,"shares":51617},"date":1597142589756,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(172,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":554.0,"ask":518.0,"volume":95000,"open":600.0,"shares":50534},"date":1597142592753,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(173,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":53.0,"ask":42.0,"volume":98000,"open":650.0,"shares":51617},"date":1597142592754,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(174,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":19.0,"ask":6.0,"volume":98000,"open":650.0,"shares":51701},"date":1597142595756,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(175,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":687.0,"ask":668.0,"volume":95000,"open":600.0,"shares":50534},"date":1597142598754,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(176,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":69.0,"ask":60.0,"volume":98000,"open":650.0,"shares":51734},"date":1597142598755,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(177,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":92.0,"ask":95.0,"volume":98000,"open":650.0,"shares":51764},"date":1597142601751,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(178,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":100.0,"ask":91.0,"volume":98000,"open":650.0,"shares":51764},"date":1597142604754,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(179,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":34.0,"ask":44.0,"volume":98000,"open":650.0,"shares":51764},"date":1597142607753,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(180,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":111.0,"ask":115.0,"volume":98000,"open":650.0,"shares":51863},"date":1597142610751,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(181,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":846.0,"ask":842.0,"volume":95000,"open":600.0,"shares":50761},"date":1597142613754,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(182,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":128.0,"ask":129.0,"volume":98000,"open":650.0,"shares":51863},"date":1597142613754,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(183,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":147.0,"ask":129.0,"volume":98000,"open":650.0,"shares":51863},"date":1597142616755,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(184,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":183.0,"ask":186.0,"volume":98000,"open":650.0,"shares":51863},"date":1597142619754,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(185,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":135.0,"ask":137.0,"volume":98000,"open":650.0,"shares":51903},"date":1597142622749,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(186,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":625.0,"ask":645.0,"volume":95000,"open":600.0,"shares":50893},"date":1597142625751,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(187,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":186.0,"ask":170.0,"volume":98000,"open":650.0,"shares":51947},"date":1597142625752,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(188,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":208.0,"ask":203.0,"volume":98000,"open":650.0,"shares":51953},"date":1597142628753,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(189,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":762.0,"ask":745.0,"volume":95000,"open":600.0,"shares":50893},"date":1597142631753,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(190,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":219.0,"ask":210.0,"volume":98000,"open":650.0,"shares":51990},"date":1597142631755,"amount":4,"owned":24}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(191,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":194.0,"ask":193.0,"volume":98000,"open":650.0,"shares":51990},"date":1597142634749,"amount":4,"owned":28}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(192,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":690.0,"ask":698.0,"volume":95000,"open":600.0,"shares":50924},"date":1597142634748,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(193,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":208.0,"ask":219.0,"volume":98000,"open":650.0,"shares":52033},"date":1597142637749,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(194,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":181.0,"ask":197.0,"volume":98000,"open":650.0,"shares":52033},"date":1597142640754,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(195,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":590.0,"ask":608.0,"volume":95000,"open":600.0,"shares":50940},"date":1597142643749,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(196,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":222.0,"ask":216.0,"volume":98000,"open":650.0,"shares":52104},"date":1597142643750,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(197,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":646.0,"ask":656.0,"volume":95000,"open":600.0,"shares":51033},"date":1597142646754,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(198,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":226.0,"ask":220.0,"volume":98000,"open":650.0,"shares":52104},"date":1597142646755,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(199,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":288.0,"ask":265.0,"volume":98000,"open":650.0,"shares":52104},"date":1597142649751,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(200,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":226.0,"ask":240.0,"volume":98000,"open":650.0,"shares":52104},"date":1597142652753,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(201,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":197.0,"ask":190.0,"volume":98000,"open":650.0,"shares":52126},"date":1597142655753,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(202,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":754.0,"ask":774.0,"volume":95000,"open":600.0,"shares":51276},"date":1597142658749,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(203,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":152.0,"ask":159.0,"volume":98000,"open":650.0,"shares":52141},"date":1597142658750,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(204,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":666.0,"ask":664.0,"volume":95000,"open":600.0,"shares":51276},"date":1597142661748,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(205,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":121.0,"ask":125.0,"volume":98000,"open":650.0,"shares":52141},"date":1597142661749,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(206,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":179.0,"ask":177.0,"volume":98000,"open":650.0,"shares":52195},"date":1597142664749,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(207,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":793.0,"ask":756.0,"volume":95000,"open":600.0,"shares":51289},"date":1597142667753,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(208,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":229.0,"ask":236.0,"volume":98000,"open":650.0,"shares":52195},"date":1597142667754,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(209,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":638.0,"ask":650.0,"volume":95000,"open":600.0,"shares":51343},"date":1597142670750,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(210,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":193.0,"ask":190.0,"volume":98000,"open":650.0,"shares":52195},"date":1597142670751,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(211,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":243.0,"ask":236.0,"volume":98000,"open":650.0,"shares":52195},"date":1597142673748,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(212,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":642.0,"ask":646.0,"volume":95000,"open":600.0,"shares":51378},"date":1597142676751,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(213,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":276.0,"ask":287.0,"volume":98000,"open":650.0,"shares":52281},"date":1597142676752,"amount":4,"owned":36}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(214,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":222.0,"ask":213.0,"volume":98000,"open":650.0,"shares":52281},"date":1597142679751,"amount":4,"owned":32}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(215,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":708.0,"ask":680.0,"volume":95000,"open":600.0,"shares":51378},"date":1597142679750,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(216,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":252.0,"ask":247.0,"volume":98000,"open":650.0,"shares":52281},"date":1597142682747,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(217,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":292.0,"ask":286.0,"volume":98000,"open":650.0,"shares":52281},"date":1597142685751,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(218,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":862.0,"ask":852.0,"volume":95000,"open":600.0,"shares":51525},"date":1597142688746,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(219,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":304.0,"ask":306.0,"volume":98000,"open":650.0,"shares":52281},"date":1597142688747,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(220,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":814.0,"ask":796.0,"volume":95000,"open":600.0,"shares":51619},"date":1597142691752,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(221,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":254.0,"ask":257.0,"volume":98000,"open":650.0,"shares":52312},"date":1597142691752,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(222,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":759.0,"ask":740.0,"volume":95000,"open":600.0,"shares":51654},"date":1597142694749,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(223,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":259.0,"ask":261.0,"volume":98000,"open":650.0,"shares":52312},"date":1597142694750,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(224,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":306.0,"ask":323.0,"volume":98000,"open":650.0,"shares":52351},"date":1597142697751,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(225,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":273.0,"ask":268.0,"volume":98000,"open":650.0,"shares":52351},"date":1597142700751,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(226,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":268.0,"ask":275.0,"volume":98000,"open":650.0,"shares":52359},"date":1597142703752,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(227,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":265.0,"ask":253.0,"volume":98000,"open":650.0,"shares":52359},"date":1597142706747,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(228,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":510.0,"ask":523.0,"volume":95000,"open":600.0,"shares":51747},"date":1597142709747,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(229,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":308.0,"ask":303.0,"volume":98000,"open":650.0,"shares":52359},"date":1597142709748,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(230,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":495.0,"ask":483.0,"volume":95000,"open":600.0,"shares":51747},"date":1597142712750,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(231,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":318.0,"ask":325.0,"volume":98000,"open":650.0,"shares":52359},"date":1597142712751,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(232,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":283.0,"ask":290.0,"volume":98000,"open":650.0,"shares":52359},"date":1597142715747,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(233,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":496.0,"ask":458.0,"volume":95000,"open":600.0,"shares":51775},"date":1597142718750,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(234,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":352.0,"ask":350.0,"volume":98000,"open":650.0,"shares":52359},"date":1597142718751,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(235,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":549.0,"ask":527.0,"volume":95000,"open":600.0,"shares":51775},"date":1597142721750,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(236,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":360.0,"ask":368.0,"volume":98000,"open":650.0,"shares":52359},"date":1597142721751,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(237,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":371.0,"ask":378.0,"volume":98000,"open":650.0,"shares":52421},"date":1597142724746,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(238,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":304.0,"ask":309.0,"volume":98000,"open":650.0,"shares":52421},"date":1597142727750,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(239,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":444.0,"ask":451.0,"volume":95000,"open":600.0,"shares":51914},"date":1597142730746,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(240,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":284.0,"ask":271.0,"volume":98000,"open":650.0,"shares":52488},"date":1597142730746,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(241,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":425.0,"ask":455.0,"volume":95000,"open":600.0,"shares":51914},"date":1597142733749,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(242,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":265.0,"ask":274.0,"volume":98000,"open":650.0,"shares":52488},"date":1597142733750,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(243,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":257.0,"ask":270.0,"volume":98000,"open":650.0,"shares":52488},"date":1597142736746,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(244,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":253.0,"ask":253.0,"volume":98000,"open":650.0,"shares":52488},"date":1597142739744,"amount":4,"owned":48}')
+COMMIT
+INSERT INTO AUDIT VALUES(245,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":754.0,"ask":744.0,"volume":95000,"open":600.0,"shares":52094},"date":1597142745746,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(246,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":266.0,"ask":264.0,"volume":98000,"open":650.0,"shares":52515},"date":1597142745747,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(247,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":667.0,"ask":683.0,"volume":95000,"open":600.0,"shares":52094},"date":1597142748748,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(248,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":225.0,"ask":225.0,"volume":98000,"open":650.0,"shares":52515},"date":1597142748749,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(249,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":287.0,"ask":270.0,"volume":98000,"open":650.0,"shares":52515},"date":1597142751749,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(250,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":782.0,"ask":785.0,"volume":95000,"open":600.0,"shares":52094},"date":1597142754744,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(251,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":312.0,"ask":294.0,"volume":98000,"open":650.0,"shares":52515},"date":1597142754747,"amount":4,"owned":32}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(252,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":668.0,"ask":669.0,"volume":95000,"open":600.0,"shares":52133},"date":1597142757745,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(253,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":360.0,"ask":359.0,"volume":98000,"open":650.0,"shares":52515},"date":1597142757746,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(254,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":586.0,"ask":597.0,"volume":95000,"open":600.0,"shares":52133},"date":1597142760743,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(255,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":331.0,"ask":329.0,"volume":98000,"open":650.0,"shares":52563},"date":1597142760744,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(256,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":585.0,"ask":581.0,"volume":95000,"open":600.0,"shares":52228},"date":1597142763744,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(257,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":381.0,"ask":379.0,"volume":98000,"open":650.0,"shares":52563},"date":1597142763744,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(258,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":526.0,"ask":494.0,"volume":95000,"open":600.0,"shares":52228},"date":1597142766745,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(259,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":334.0,"ask":344.0,"volume":98000,"open":650.0,"shares":52656},"date":1597142766746,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(260,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":605.0,"ask":639.0,"volume":95000,"open":600.0,"shares":52236},"date":1597142769750,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(261,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":299.0,"ask":297.0,"volume":98000,"open":650.0,"shares":52709},"date":1597142769750,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(262,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":549.0,"ask":571.0,"volume":95000,"open":600.0,"shares":52236},"date":1597142772747,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(263,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":355.0,"ask":351.0,"volume":98000,"open":650.0,"shares":52777},"date":1597142772748,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(264,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":477.0,"ask":516.0,"volume":95000,"open":600.0,"shares":52236},"date":1597142775743,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(265,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":293.0,"ask":291.0,"volume":98000,"open":650.0,"shares":52777},"date":1597142775744,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(266,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":354.0,"ask":340.0,"volume":98000,"open":650.0,"shares":52777},"date":1597142778746,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(267,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":313.0,"ask":312.0,"volume":98000,"open":650.0,"shares":52837},"date":1597142781746,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(268,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":354.0,"ask":351.0,"volume":98000,"open":650.0,"shares":52837},"date":1597142784742,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(269,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":323.0,"ask":319.0,"volume":98000,"open":650.0,"shares":52882},"date":1597142787748,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(270,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":456.0,"ask":455.0,"volume":95000,"open":600.0,"shares":52329},"date":1597142790747,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(271,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":325.0,"ask":314.0,"volume":98000,"open":650.0,"shares":52929},"date":1597142790748,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(272,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":371.0,"ask":388.0,"volume":95000,"open":600.0,"shares":52405},"date":1597142793745,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(273,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":296.0,"ask":300.0,"volume":98000,"open":650.0,"shares":52929},"date":1597142793745,"amount":4,"owned":4}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(274,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":268.0,"ask":283.0,"volume":98000,"open":650.0,"shares":52929},"date":1597142796744,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(275,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":546.0,"ask":523.0,"volume":95000,"open":600.0,"shares":52431},"date":1597142796744,"amount":5,"owned":15}')
+COMMIT
+INSERT INTO AUDIT VALUES(276,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":551.0,"ask":570.0,"volume":95000,"open":600.0,"shares":52465},"date":1597142799743,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(277,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":278.0,"ask":280.0,"volume":98000,"open":650.0,"shares":52973},"date":1597142799743,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(278,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":493.0,"ask":495.0,"volume":95000,"open":600.0,"shares":52465},"date":1597142802745,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(279,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":304.0,"ask":302.0,"volume":98000,"open":650.0,"shares":53044},"date":1597142802745,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(280,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":544.0,"ask":582.0,"volume":95000,"open":600.0,"shares":52532},"date":1597142805747,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(281,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":335.0,"ask":321.0,"volume":98000,"open":650.0,"shares":53096},"date":1597142805748,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(282,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":368.0,"ask":357.0,"volume":98000,"open":650.0,"shares":53112},"date":1597142808747,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(283,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":391.0,"ask":390.0,"volume":98000,"open":650.0,"shares":53145},"date":1597142811742,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(284,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":446.0,"ask":480.0,"volume":95000,"open":600.0,"shares":52673},"date":1597142814741,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(285,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":313.0,"ask":306.0,"volume":98000,"open":650.0,"shares":53145},"date":1597142814742,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(286,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":399.0,"ask":427.0,"volume":95000,"open":600.0,"shares":52675},"date":1597142817745,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(287,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":275.0,"ask":276.0,"volume":98000,"open":650.0,"shares":53145},"date":1597142817745,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(288,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":367.0,"ask":395.0,"volume":95000,"open":600.0,"shares":52696},"date":1597142820746,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(289,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":301.0,"ask":312.0,"volume":98000,"open":650.0,"shares":53145},"date":1597142820746,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(290,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":447.0,"ask":470.0,"volume":95000,"open":600.0,"shares":52696},"date":1597142823747,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(291,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":235.0,"ask":251.0,"volume":98000,"open":650.0,"shares":53185},"date":1597142823747,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(292,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":401.0,"ask":389.0,"volume":95000,"open":600.0,"shares":52696},"date":1597142826746,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(293,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":193.0,"ask":192.0,"volume":98000,"open":650.0,"shares":53217},"date":1597142826746,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(294,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":355.0,"ask":327.0,"volume":95000,"open":600.0,"shares":52696},"date":1597142829746,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(295,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":187.0,"ask":173.0,"volume":98000,"open":650.0,"shares":53217},"date":1597142829746,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(296,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":402.0,"ask":429.0,"volume":95000,"open":600.0,"shares":52696},"date":1597142832741,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(297,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":242.0,"ask":259.0,"volume":98000,"open":650.0,"shares":53268},"date":1597142832741,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(298,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":433.0,"ask":425.0,"volume":95000,"open":600.0,"shares":52696},"date":1597142835745,"amount":5,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(299,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":266.0,"ask":277.0,"volume":98000,"open":650.0,"shares":53268},"date":1597142835746,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(300,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":287.0,"ask":288.0,"volume":95000,"open":600.0,"shares":52696},"date":1597142838745,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(301,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":205.0,"ask":209.0,"volume":98000,"open":650.0,"shares":53268},"date":1597142838746,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(302,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":415.0,"ask":408.0,"volume":95000,"open":600.0,"shares":52696},"date":1597142841746,"amount":5,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(303,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":244.0,"ask":231.0,"volume":98000,"open":650.0,"shares":53359},"date":1597142841747,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(304,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":323.0,"ask":326.0,"volume":95000,"open":600.0,"shares":52696},"date":1597142844742,"amount":5,"owned":25}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(305,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":197.0,"ask":194.0,"volume":98000,"open":650.0,"shares":53359},"date":1597142844742,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(306,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":305.0,"ask":308.0,"volume":95000,"open":600.0,"shares":52748},"date":1597142847741,"amount":5,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(307,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":197.0,"ask":175.0,"volume":98000,"open":650.0,"shares":53360},"date":1597142847741,"amount":4,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(308,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":227.0,"ask":224.0,"volume":98000,"open":650.0,"shares":53426},"date":1597142850742,"amount":4,"owned":16}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(309,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":406.0,"ask":400.0,"volume":95000,"open":600.0,"shares":52748},"date":1597142850742,"amount":5,"owned":25}')
+COMMIT
+INSERT INTO AUDIT VALUES(310,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":493.0,"ask":523.0,"volume":95000,"open":600.0,"shares":52748},"date":1597142853744,"amount":5,"owned":30}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(311,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":275.0,"ask":273.0,"volume":98000,"open":650.0,"shares":53426},"date":1597142853745,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(312,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":536.0,"ask":504.0,"volume":95000,"open":600.0,"shares":52774},"date":1597142856745,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(313,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":238.0,"ask":257.0,"volume":98000,"open":650.0,"shares":53498},"date":1597142856746,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(314,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":431.0,"ask":446.0,"volume":95000,"open":600.0,"shares":52825},"date":1597142859742,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(315,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":228.0,"ask":232.0,"volume":98000,"open":650.0,"shares":53498},"date":1597142859743,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(316,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":441.0,"ask":455.0,"volume":95000,"open":600.0,"shares":52856},"date":1597142862739,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(317,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":273.0,"ask":291.0,"volume":98000,"open":650.0,"shares":53508},"date":1597142862740,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(318,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":498.0,"ask":496.0,"volume":95000,"open":600.0,"shares":52856},"date":1597142865744,"amount":5,"owned":30}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(319,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":237.0,"ask":241.0,"volume":98000,"open":650.0,"shares":53591},"date":1597142865745,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(320,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":549.0,"ask":536.0,"volume":95000,"open":600.0,"shares":52922},"date":1597142868741,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(321,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":289.0,"ask":306.0,"volume":98000,"open":650.0,"shares":53591},"date":1597142868741,"amount":4,"owned":24}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(322,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":623.0,"ask":616.0,"volume":95000,"open":600.0,"shares":52922},"date":1597142871744,"amount":5,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(323,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":331.0,"ask":339.0,"volume":98000,"open":650.0,"shares":53591},"date":1597142871745,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(324,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":658.0,"ask":660.0,"volume":95000,"open":600.0,"shares":52939},"date":1597142874739,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(325,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":372.0,"ask":356.0,"volume":98000,"open":650.0,"shares":53591},"date":1597142874740,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(326,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":777.0,"ask":776.0,"volume":95000,"open":600.0,"shares":53021},"date":1597142877744,"amount":5,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(327,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":383.0,"ask":389.0,"volume":98000,"open":650.0,"shares":53591},"date":1597142877744,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(328,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":841.0,"ask":851.0,"volume":95000,"open":600.0,"shares":53021},"date":1597142880742,"amount":5,"owned":25}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(329,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":350.0,"ask":359.0,"volume":98000,"open":650.0,"shares":53611},"date":1597142880743,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(330,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":319.0,"ask":309.0,"volume":98000,"open":650.0,"shares":53611},"date":1597142883740,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(331,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":888.0,"ask":900.0,"volume":95000,"open":600.0,"shares":53021},"date":1597142886743,"amount":5,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(332,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":290.0,"ask":288.0,"volume":98000,"open":650.0,"shares":53658},"date":1597142886744,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(333,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":774.0,"ask":797.0,"volume":95000,"open":600.0,"shares":53113},"date":1597142889743,"amount":5,"owned":25}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(334,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":362.0,"ask":347.0,"volume":98000,"open":650.0,"shares":53746},"date":1597142889744,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(335,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":359.0,"ask":381.0,"volume":98000,"open":650.0,"shares":53746},"date":1597142892744,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(336,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":746.0,"ask":758.0,"volume":95000,"open":600.0,"shares":53113},"date":1597142895744,"amount":5,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(337,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":415.0,"ask":408.0,"volume":98000,"open":650.0,"shares":53746},"date":1597142895745,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(338,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":882.0,"ask":877.0,"volume":95000,"open":600.0,"shares":53113},"date":1597142898739,"amount":5,"owned":25}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(339,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":381.0,"ask":387.0,"volume":98000,"open":650.0,"shares":53746},"date":1597142898739,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(340,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":819.0,"ask":824.0,"volume":95000,"open":600.0,"shares":53180},"date":1597142901739,"amount":5,"owned":30}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(341,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":456.0,"ask":448.0,"volume":98000,"open":650.0,"shares":53771},"date":1597142901739,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(342,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":407.0,"ask":400.0,"volume":98000,"open":650.0,"shares":53771},"date":1597142904742,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(343,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":776.0,"ask":773.0,"volume":95000,"open":600.0,"shares":53246},"date":1597142907740,"amount":5,"owned":25}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(344,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":387.0,"ask":380.0,"volume":98000,"open":650.0,"shares":53771},"date":1597142907741,"amount":4,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(345,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":725.0,"ask":695.0,"volume":95000,"open":600.0,"shares":53246},"date":1597142910744,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(346,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":463.0,"ask":450.0,"volume":98000,"open":650.0,"shares":53791},"date":1597142910744,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(347,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":632.0,"ask":628.0,"volume":95000,"open":600.0,"shares":53264},"date":1597142913743,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(348,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":476.0,"ask":476.0,"volume":98000,"open":650.0,"shares":53791},"date":1597142913744,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(349,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":619.0,"ask":585.0,"volume":95000,"open":600.0,"shares":53347},"date":1597142916742,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(350,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":501.0,"ask":503.0,"volume":98000,"open":650.0,"shares":53791},"date":1597142916743,"amount":4,"owned":16}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(351,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":466.0,"ask":463.0,"volume":98000,"open":650.0,"shares":53834},"date":1597142919741,"amount":4,"owned":12}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(352,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":556.0,"ask":585.0,"volume":95000,"open":600.0,"shares":53348},"date":1597142919740,"amount":5,"owned":15}')
+COMMIT
+INSERT INTO AUDIT VALUES(353,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":526.0,"ask":504.0,"volume":95000,"open":600.0,"shares":53430},"date":1597142922742,"amount":5,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(354,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":406.0,"ask":403.0,"volume":98000,"open":650.0,"shares":53930},"date":1597142922743,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(355,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":584.0,"ask":594.0,"volume":95000,"open":600.0,"shares":53517},"date":1597142925742,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(356,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":364.0,"ask":359.0,"volume":98000,"open":650.0,"shares":53930},"date":1597142925743,"amount":4,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(357,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":348.0,"ask":353.0,"volume":98000,"open":650.0,"shares":53997},"date":1597142928737,"amount":4,"owned":16}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(358,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":605.0,"ask":636.0,"volume":95000,"open":600.0,"shares":53517},"date":1597142928737,"amount":5,"owned":10}')
+COMMIT
+INSERT INTO AUDIT VALUES(359,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":509.0,"ask":464.0,"volume":95000,"open":600.0,"shares":53548},"date":1597142931737,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(360,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":385.0,"ask":394.0,"volume":98000,"open":650.0,"shares":54096},"date":1597142931738,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(361,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":394.0,"ask":426.0,"volume":95000,"open":600.0,"shares":53589},"date":1597142934742,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(362,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":393.0,"ask":395.0,"volume":98000,"open":650.0,"shares":54096},"date":1597142934742,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(363,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":362.0,"ask":376.0,"volume":98000,"open":650.0,"shares":54179},"date":1597142937742,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(364,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":441.0,"ask":426.0,"volume":98000,"open":650.0,"shares":54179},"date":1597142940739,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(365,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":368.0,"ask":368.0,"volume":98000,"open":650.0,"shares":54179},"date":1597142943742,"amount":4,"owned":12}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(366,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":367.0,"ask":355.0,"volume":98000,"open":650.0,"shares":54179},"date":1597142946743,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(367,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":389.0,"ask":380.0,"volume":95000,"open":600.0,"shares":53637},"date":1597142946742,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(368,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":463.0,"ask":448.0,"volume":95000,"open":600.0,"shares":53637},"date":1597142949740,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(369,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":332.0,"ask":349.0,"volume":98000,"open":650.0,"shares":54220},"date":1597142949741,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(370,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":308.0,"ask":304.0,"volume":95000,"open":600.0,"shares":53686},"date":1597142952741,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(371,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":344.0,"ask":337.0,"volume":98000,"open":650.0,"shares":54256},"date":1597142952742,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(372,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":241.0,"ask":238.0,"volume":95000,"open":600.0,"shares":53686},"date":1597142955745,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(373,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":314.0,"ask":322.0,"volume":98000,"open":650.0,"shares":54256},"date":1597142955746,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(374,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":295.0,"ask":302.0,"volume":95000,"open":600.0,"shares":53686},"date":1597142958743,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(375,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":363.0,"ask":363.0,"volume":98000,"open":650.0,"shares":54256},"date":1597142958744,"amount":4,"owned":8}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(376,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":359.0,"ask":354.0,"volume":95000,"open":600.0,"shares":53686},"date":1597142961742,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(377,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":392.0,"ask":401.0,"volume":98000,"open":650.0,"shares":54256},"date":1597142961742,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(378,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":306.0,"ask":303.0,"volume":95000,"open":600.0,"shares":53702},"date":1597142964746,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(379,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":436.0,"ask":433.0,"volume":98000,"open":650.0,"shares":54266},"date":1597142964747,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(380,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":370.0,"ask":371.0,"volume":95000,"open":600.0,"shares":53702},"date":1597142967745,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(381,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":454.0,"ask":431.0,"volume":98000,"open":650.0,"shares":54266},"date":1597142967745,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(382,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":436.0,"ask":410.0,"volume":95000,"open":600.0,"shares":53775},"date":1597142970737,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(383,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":487.0,"ask":492.0,"volume":98000,"open":650.0,"shares":54266},"date":1597142970738,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(384,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":528.0,"ask":516.0,"volume":95000,"open":600.0,"shares":53775},"date":1597142973739,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(385,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":502.0,"ask":504.0,"volume":98000,"open":650.0,"shares":54299},"date":1597142973739,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(386,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":443.0,"ask":425.0,"volume":95000,"open":600.0,"shares":53775},"date":1597142976740,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(387,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":515.0,"ask":524.0,"volume":98000,"open":650.0,"shares":54369},"date":1597142976741,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(388,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":433.0,"ask":407.0,"volume":95000,"open":600.0,"shares":53775},"date":1597142979735,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(389,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":441.0,"ask":444.0,"volume":98000,"open":650.0,"shares":54369},"date":1597142979736,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(390,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":388.0,"ask":379.0,"volume":95000,"open":600.0,"shares":53775},"date":1597142982736,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(391,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":413.0,"ask":417.0,"volume":98000,"open":650.0,"shares":54401},"date":1597142982736,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(392,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":383.0,"ask":342.0,"volume":95000,"open":600.0,"shares":53816},"date":1597142985739,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(393,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":422.0,"ask":410.0,"volume":98000,"open":650.0,"shares":54470},"date":1597142985739,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(394,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":472.0,"ask":480.0,"volume":95000,"open":600.0,"shares":53816},"date":1597142988740,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(395,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":430.0,"ask":435.0,"volume":98000,"open":650.0,"shares":54503},"date":1597142988740,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(396,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":445.0,"ask":451.0,"volume":95000,"open":600.0,"shares":53816},"date":1597142991738,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(397,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":457.0,"ask":454.0,"volume":98000,"open":650.0,"shares":54524},"date":1597142991739,"amount":4,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(398,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":511.0,"ask":522.0,"volume":95000,"open":600.0,"shares":53816},"date":1597142994740,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(399,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":468.0,"ask":462.0,"volume":98000,"open":650.0,"shares":54558},"date":1597142994740,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(400,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":403.0,"ask":432.0,"volume":95000,"open":600.0,"shares":53816},"date":1597142997739,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(401,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":464.0,"ask":483.0,"volume":98000,"open":650.0,"shares":54647},"date":1597142997740,"amount":4,"owned":12}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(402,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":331.0,"ask":322.0,"volume":95000,"open":600.0,"shares":53816},"date":1597143000739,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(403,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":420.0,"ask":415.0,"volume":98000,"open":650.0,"shares":54686},"date":1597143000740,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(404,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":369.0,"ask":392.0,"volume":95000,"open":600.0,"shares":53816},"date":1597143003739,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(405,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":470.0,"ask":480.0,"volume":98000,"open":650.0,"shares":54689},"date":1597143003740,"amount":4,"owned":12}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(406,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":405.0,"ask":415.0,"volume":98000,"open":650.0,"shares":54689},"date":1597143006738,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(407,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":371.0,"ask":381.0,"volume":95000,"open":600.0,"shares":53908},"date":1597143006738,"amount":5,"owned":15}')
+COMMIT
+INSERT INTO AUDIT VALUES(408,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":398.0,"ask":400.0,"volume":95000,"open":600.0,"shares":53908},"date":1597143009739,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(409,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":428.0,"ask":431.0,"volume":98000,"open":650.0,"shares":54751},"date":1597143009739,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(410,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":329.0,"ask":322.0,"volume":95000,"open":600.0,"shares":53908},"date":1597143012739,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(411,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":474.0,"ask":456.0,"volume":98000,"open":650.0,"shares":54751},"date":1597143012740,"amount":4,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(412,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":435.0,"ask":438.0,"volume":95000,"open":600.0,"shares":53956},"date":1597143015739,"amount":5,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(413,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":454.0,"ask":437.0,"volume":95000,"open":600.0,"shares":53976},"date":1597143018738,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(414,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":460.0,"ask":477.0,"volume":98000,"open":650.0,"shares":54798},"date":1597143018738,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(415,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":355.0,"ask":354.0,"volume":95000,"open":600.0,"shares":53976},"date":1597143021735,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(416,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":406.0,"ask":417.0,"volume":98000,"open":650.0,"shares":54814},"date":1597143021736,"amount":4,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(417,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":479.0,"ask":478.0,"volume":98000,"open":650.0,"shares":54876},"date":1597143024736,"amount":4,"owned":4}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(418,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":275.0,"ask":253.0,"volume":95000,"open":600.0,"shares":53976},"date":1597143024735,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(419,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":484.0,"ask":468.0,"volume":98000,"open":650.0,"shares":54962},"date":1597143027737,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(420,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":393.0,"ask":357.0,"volume":95000,"open":600.0,"shares":53976},"date":1597143027736,"amount":5,"owned":10}')
+COMMIT
+INSERT INTO AUDIT VALUES(421,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":268.0,"ask":296.0,"volume":95000,"open":600.0,"shares":54067},"date":1597143030739,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(422,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":423.0,"ask":419.0,"volume":98000,"open":650.0,"shares":55060},"date":1597143030739,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(423,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":297.0,"ask":250.0,"volume":95000,"open":600.0,"shares":54107},"date":1597143033739,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(424,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":440.0,"ask":446.0,"volume":98000,"open":650.0,"shares":55134},"date":1597143033739,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(425,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":373.0,"ask":395.0,"volume":95000,"open":600.0,"shares":54191},"date":1597143036734,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(426,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":491.0,"ask":487.0,"volume":98000,"open":650.0,"shares":55135},"date":1597143036737,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(427,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":280.0,"ask":286.0,"volume":95000,"open":600.0,"shares":54191},"date":1597143039739,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(428,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":419.0,"ask":435.0,"volume":98000,"open":650.0,"shares":55135},"date":1597143039740,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(429,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":413.0,"ask":433.0,"volume":98000,"open":650.0,"shares":55202},"date":1597143042737,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(430,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":372.0,"ask":387.0,"volume":95000,"open":600.0,"shares":54272},"date":1597143045740,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(431,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":449.0,"ask":470.0,"volume":98000,"open":650.0,"shares":55269},"date":1597143045742,"amount":4,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(432,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":274.0,"ask":260.0,"volume":95000,"open":600.0,"shares":54272},"date":1597143048735,"amount":5,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(433,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":408.0,"ask":390.0,"volume":95000,"open":600.0,"shares":54362},"date":1597143051733,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(434,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":436.0,"ask":458.0,"volume":98000,"open":650.0,"shares":55302},"date":1597143051734,"amount":4,"owned":4}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(435,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":444.0,"ask":439.0,"volume":95000,"open":600.0,"shares":54362},"date":1597143054734,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(436,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":467.0,"ask":480.0,"volume":98000,"open":650.0,"shares":55309},"date":1597143054734,"amount":4,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(437,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":508.0,"ask":514.0,"volume":95000,"open":600.0,"shares":54362},"date":1597143057737,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(438,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":433.0,"ask":432.0,"volume":98000,"open":650.0,"shares":55316},"date":1597143057737,"amount":4,"owned":4}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(439,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":366.0,"ask":358.0,"volume":95000,"open":600.0,"shares":54362},"date":1597143060739,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(440,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":466.0,"ask":473.0,"volume":98000,"open":650.0,"shares":55316},"date":1597143060742,"amount":4,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(441,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":495.0,"ask":524.0,"volume":95000,"open":600.0,"shares":54396},"date":1597143063737,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(442,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":529.0,"ask":531.0,"volume":95000,"open":600.0,"shares":54396},"date":1597143066737,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(443,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":438.0,"ask":436.0,"volume":98000,"open":650.0,"shares":55412},"date":1597143066737,"amount":4,"owned":4}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(444,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":465.0,"ask":456.0,"volume":98000,"open":650.0,"shares":55460},"date":1597143069732,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(445,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":510.0,"ask":494.0,"volume":95000,"open":600.0,"shares":54396},"date":1597143069732,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(446,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":412.0,"ask":410.0,"volume":98000,"open":650.0,"shares":55460},"date":1597143072733,"amount":4,"owned":12}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(447,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":441.0,"ask":480.0,"volume":95000,"open":600.0,"shares":54396},"date":1597143072733,"amount":5,"owned":10}')
+COMMIT
+INSERT INTO AUDIT VALUES(448,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":439.0,"ask":419.0,"volume":95000,"open":600.0,"shares":54396},"date":1597143075734,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(449,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":459.0,"ask":452.0,"volume":98000,"open":650.0,"shares":55519},"date":1597143075735,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(450,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":546.0,"ask":505.0,"volume":95000,"open":600.0,"shares":54431},"date":1597143078733,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(451,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":416.0,"ask":421.0,"volume":98000,"open":650.0,"shares":55611},"date":1597143078733,"amount":4,"owned":12}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(452,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":520.0,"ask":516.0,"volume":95000,"open":600.0,"shares":54431},"date":1597143081737,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(453,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":402.0,"ask":401.0,"volume":98000,"open":650.0,"shares":55611},"date":1597143081738,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(454,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":426.0,"ask":449.0,"volume":98000,"open":650.0,"shares":55611},"date":1597143084737,"amount":4,"owned":4}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(455,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":612.0,"ask":623.0,"volume":95000,"open":600.0,"shares":54431},"date":1597143084737,"amount":5,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(456,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":675.0,"ask":715.0,"volume":95000,"open":600.0,"shares":54431},"date":1597143087731,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(457,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":366.0,"ask":369.0,"volume":98000,"open":650.0,"shares":55664},"date":1597143087732,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(458,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":727.0,"ask":707.0,"volume":95000,"open":600.0,"shares":54431},"date":1597143090736,"amount":5,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(459,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":340.0,"ask":339.0,"volume":98000,"open":650.0,"shares":55664},"date":1597143090736,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(460,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":797.0,"ask":773.0,"volume":95000,"open":600.0,"shares":54437},"date":1597143093734,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(461,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":407.0,"ask":414.0,"volume":98000,"open":650.0,"shares":55664},"date":1597143093734,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(462,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":636.0,"ask":653.0,"volume":95000,"open":600.0,"shares":54437},"date":1597143096732,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(463,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":465.0,"ask":459.0,"volume":98000,"open":650.0,"shares":55700},"date":1597143096733,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(464,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":724.0,"ask":742.0,"volume":95000,"open":600.0,"shares":54437},"date":1597143099736,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(465,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":395.0,"ask":404.0,"volume":98000,"open":650.0,"shares":55738},"date":1597143099737,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(466,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":614.0,"ask":634.0,"volume":95000,"open":600.0,"shares":54437},"date":1597143102734,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(467,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":462.0,"ask":451.0,"volume":98000,"open":650.0,"shares":55746},"date":1597143102735,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(468,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":745.0,"ask":780.0,"volume":95000,"open":600.0,"shares":54487},"date":1597143105731,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(469,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":491.0,"ask":479.0,"volume":98000,"open":650.0,"shares":55746},"date":1597143105732,"amount":4,"owned":8}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(470,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":432.0,"ask":435.0,"volume":98000,"open":650.0,"shares":55746},"date":1597143108747,"amount":4,"owned":12}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(471,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":652.0,"ask":639.0,"volume":95000,"open":600.0,"shares":54503},"date":1597143108746,"amount":5,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(472,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":503.0,"ask":514.0,"volume":98000,"open":650.0,"shares":55749},"date":1597143111732,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(473,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":800.0,"ask":816.0,"volume":95000,"open":600.0,"shares":54503},"date":1597143114730,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(474,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":468.0,"ask":456.0,"volume":98000,"open":650.0,"shares":55749},"date":1597143114731,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(475,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":720.0,"ask":719.0,"volume":95000,"open":600.0,"shares":54505},"date":1597143117731,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(476,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":486.0,"ask":483.0,"volume":98000,"open":650.0,"shares":55749},"date":1597143117734,"amount":4,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(477,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":853.0,"ask":823.0,"volume":95000,"open":600.0,"shares":54505},"date":1597143120732,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(478,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":909.0,"ask":905.0,"volume":95000,"open":600.0,"shares":54546},"date":1597143123730,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(479,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":543.0,"ask":561.0,"volume":98000,"open":650.0,"shares":55781},"date":1597143123731,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(480,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":773.0,"ask":784.0,"volume":95000,"open":600.0,"shares":54546},"date":1597143126732,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(481,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":510.0,"ask":515.0,"volume":98000,"open":650.0,"shares":55807},"date":1597143126732,"amount":4,"owned":8}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(482,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":469.0,"ask":474.0,"volume":98000,"open":650.0,"shares":55807},"date":1597143129734,"amount":4,"owned":12}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(483,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":662.0,"ask":701.0,"volume":95000,"open":600.0,"shares":54609},"date":1597143129733,"amount":5,"owned":10}')
+COMMIT
+INSERT INTO AUDIT VALUES(484,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":627.0,"ask":632.0,"volume":95000,"open":600.0,"shares":54609},"date":1597143132730,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(485,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":535.0,"ask":536.0,"volume":98000,"open":650.0,"shares":55807},"date":1597143132731,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(486,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":714.0,"ask":728.0,"volume":95000,"open":600.0,"shares":54609},"date":1597143135734,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(487,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":510.0,"ask":511.0,"volume":98000,"open":650.0,"shares":55875},"date":1597143135734,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(488,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":811.0,"ask":795.0,"volume":95000,"open":600.0,"shares":54689},"date":1597143138735,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(489,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":569.0,"ask":572.0,"volume":98000,"open":650.0,"shares":55875},"date":1597143138735,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(490,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":799.0,"ask":820.0,"volume":95000,"open":600.0,"shares":54689},"date":1597143141729,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(491,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":514.0,"ask":504.0,"volume":98000,"open":650.0,"shares":55875},"date":1597143141730,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(492,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":694.0,"ask":664.0,"volume":95000,"open":600.0,"shares":54689},"date":1597143144731,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(493,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":585.0,"ask":572.0,"volume":98000,"open":650.0,"shares":55896},"date":1597143144732,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(494,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":587.0,"ask":564.0,"volume":95000,"open":600.0,"shares":54689},"date":1597143147732,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(495,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":534.0,"ask":524.0,"volume":98000,"open":650.0,"shares":55896},"date":1597143147732,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(496,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":565.0,"ask":548.0,"volume":95000,"open":600.0,"shares":54771},"date":1597143150731,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(497,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":500.0,"ask":501.0,"volume":98000,"open":650.0,"shares":55896},"date":1597143150731,"amount":4,"owned":16}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(498,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":470.0,"ask":479.0,"volume":95000,"open":600.0,"shares":54771},"date":1597143153732,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(499,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":464.0,"ask":462.0,"volume":98000,"open":650.0,"shares":55896},"date":1597143153732,"amount":4,"owned":12}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(500,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":520.0,"ask":520.0,"volume":98000,"open":650.0,"shares":55939},"date":1597143156732,"amount":4,"owned":16}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(501,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":469.0,"ask":445.0,"volume":95000,"open":600.0,"shares":54790},"date":1597143156731,"amount":5,"owned":15}')
+COMMIT
+INSERT INTO AUDIT VALUES(502,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":551.0,"ask":561.0,"volume":95000,"open":600.0,"shares":54790},"date":1597143159731,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(503,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":462.0,"ask":472.0,"volume":98000,"open":650.0,"shares":56018},"date":1597143159732,"amount":4,"owned":12}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(504,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":529.0,"ask":530.0,"volume":98000,"open":650.0,"shares":56018},"date":1597143162729,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(505,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":557.0,"ask":564.0,"volume":95000,"open":600.0,"shares":54868},"date":1597143162729,"amount":5,"owned":15}')
+COMMIT
+INSERT INTO AUDIT VALUES(506,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":615.0,"ask":591.0,"volume":95000,"open":600.0,"shares":54889},"date":1597143165733,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(507,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":480.0,"ask":494.0,"volume":98000,"open":650.0,"shares":56032},"date":1597143165734,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(508,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":529.0,"ask":542.0,"volume":95000,"open":600.0,"shares":54981},"date":1597143168729,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(509,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":479.0,"ask":483.0,"volume":98000,"open":650.0,"shares":56047},"date":1597143168730,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(510,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":452.0,"ask":477.0,"volume":95000,"open":600.0,"shares":54981},"date":1597143171730,"amount":5,"owned":20}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(511,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":437.0,"ask":442.0,"volume":98000,"open":650.0,"shares":56116},"date":1597143171730,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(512,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":516.0,"ask":520.0,"volume":98000,"open":650.0,"shares":56116},"date":1597143174735,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(513,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":420.0,"ask":409.0,"volume":95000,"open":600.0,"shares":55078},"date":1597143174734,"amount":5,"owned":15}')
+COMMIT
+INSERT INTO AUDIT VALUES(514,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":486.0,"ask":473.0,"volume":95000,"open":600.0,"shares":55142},"date":1597143177730,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(515,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":567.0,"ask":565.0,"volume":98000,"open":650.0,"shares":56116},"date":1597143177731,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(516,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":384.0,"ask":382.0,"volume":95000,"open":600.0,"shares":55142},"date":1597143180730,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(517,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":511.0,"ask":501.0,"volume":98000,"open":650.0,"shares":56120},"date":1597143180731,"amount":4,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(518,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":394.0,"ask":372.0,"volume":95000,"open":600.0,"shares":55166},"date":1597143183733,"amount":5,"owned":10}')
+COMMIT
+INSERT INTO AUDIT VALUES(519,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":533.0,"ask":535.0,"volume":95000,"open":600.0,"shares":55170},"date":1597143186732,"amount":5,"owned":15}')
+COMMIT
+INSERT INTO AUDIT VALUES(520,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":387.0,"ask":390.0,"volume":95000,"open":600.0,"shares":55206},"date":1597143189728,"amount":5,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(521,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":476.0,"ask":453.0,"volume":95000,"open":600.0,"shares":55206},"date":1597143192729,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(522,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":465.0,"ask":478.0,"volume":98000,"open":650.0,"shares":56208},"date":1597143192730,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(523,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":553.0,"ask":533.0,"volume":95000,"open":600.0,"shares":55285},"date":1597143195729,"amount":5,"owned":30}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(524,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":452.0,"ask":434.0,"volume":98000,"open":650.0,"shares":56208},"date":1597143195730,"amount":4,"owned":8}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(525,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":564.0,"ask":552.0,"volume":95000,"open":600.0,"shares":55285},"date":1597143198732,"amount":5,"owned":35}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(526,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":429.0,"ask":434.0,"volume":98000,"open":650.0,"shares":56254},"date":1597143198732,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(527,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":637.0,"ask":670.0,"volume":95000,"open":600.0,"shares":55285},"date":1597143201732,"amount":5,"owned":40}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(528,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":468.0,"ask":456.0,"volume":98000,"open":650.0,"shares":56254},"date":1597143201733,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(529,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":593.0,"ask":562.0,"volume":95000,"open":600.0,"shares":55352},"date":1597143204732,"amount":5,"owned":45}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(530,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":420.0,"ask":419.0,"volume":98000,"open":650.0,"shares":56254},"date":1597143204732,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(531,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":650.0,"ask":669.0,"volume":95000,"open":600.0,"shares":55352},"date":1597143207733,"amount":5,"owned":50}')
+COMMIT
+INSERT INTO AUDIT VALUES(532,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":716.0,"ask":689.0,"volume":95000,"open":600.0,"shares":55383},"date":1597143210727,"amount":5,"owned":45}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(533,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":440.0,"ask":429.0,"volume":98000,"open":650.0,"shares":56254},"date":1597143210727,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(534,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":796.0,"ask":795.0,"volume":95000,"open":600.0,"shares":55383},"date":1597143213730,"amount":5,"owned":40}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(535,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":441.0,"ask":431.0,"volume":98000,"open":650.0,"shares":56254},"date":1597143213730,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(536,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":855.0,"ask":855.0,"volume":95000,"open":600.0,"shares":55383},"date":1597143216728,"amount":5,"owned":35}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(537,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":489.0,"ask":490.0,"volume":98000,"open":650.0,"shares":56319},"date":1597143216728,"amount":4,"owned":8}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(538,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":529.0,"ask":523.0,"volume":98000,"open":650.0,"shares":56330},"date":1597143219732,"amount":4,"owned":4}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(539,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":861.0,"ask":869.0,"volume":95000,"open":600.0,"shares":55475},"date":1597143219732,"amount":5,"owned":30}')
+COMMIT
+INSERT INTO AUDIT VALUES(540,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":754.0,"ask":738.0,"volume":95000,"open":600.0,"shares":55534},"date":1597143222729,"amount":5,"owned":25}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(541,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":571.0,"ask":559.0,"volume":98000,"open":650.0,"shares":56330},"date":1597143222730,"amount":4,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(542,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":845.0,"ask":856.0,"volume":95000,"open":600.0,"shares":55534},"date":1597143225727,"amount":5,"owned":30}')
+COMMIT
+INSERT INTO AUDIT VALUES(543,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":714.0,"ask":725.0,"volume":95000,"open":600.0,"shares":55603},"date":1597143228730,"amount":5,"owned":35}')
+COMMIT
+INSERT INTO AUDIT VALUES(544,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":642.0,"ask":600.0,"volume":95000,"open":600.0,"shares":55618},"date":1597143231729,"amount":5,"owned":30}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(545,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":447.0,"ask":434.0,"volume":98000,"open":650.0,"shares":56487},"date":1597143231729,"amount":4,"owned":4}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(546,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":734.0,"ask":701.0,"volume":95000,"open":600.0,"shares":55618},"date":1597143234727,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(547,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":407.0,"ask":402.0,"volume":98000,"open":650.0,"shares":56487},"date":1597143234727,"amount":4,"owned":0}')
+COMMIT
+INSERT INTO AUDIT VALUES(548,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":678.0,"ask":673.0,"volume":95000,"open":600.0,"shares":55618},"date":1597143237731,"amount":5,"owned":30}')
+COMMIT
+INSERT INTO AUDIT VALUES(549,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":795.0,"ask":767.0,"volume":95000,"open":600.0,"shares":55618},"date":1597143240731,"amount":5,"owned":25}')
+COMMIT
+INSERT INTO AUDIT VALUES(550,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":669.0,"ask":676.0,"volume":95000,"open":600.0,"shares":55618},"date":1597143243726,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(551,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":381.0,"ask":388.0,"volume":98000,"open":650.0,"shares":56495},"date":1597143243727,"amount":4,"owned":4}')
+COMMIT
+INSERT INTO AUDIT VALUES(552,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":624.0,"ask":633.0,"volume":95000,"open":600.0,"shares":55677},"date":1597143246727,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(553,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":339.0,"ask":356.0,"volume":98000,"open":650.0,"shares":56495},"date":1597143246727,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(554,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":701.0,"ask":709.0,"volume":95000,"open":600.0,"shares":55768},"date":1597143249731,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(555,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":312.0,"ask":302.0,"volume":98000,"open":650.0,"shares":56495},"date":1597143249731,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(556,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":562.0,"ask":537.0,"volume":95000,"open":600.0,"shares":55845},"date":1597143252729,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(557,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":374.0,"ask":367.0,"volume":98000,"open":650.0,"shares":56582},"date":1597143252730,"amount":4,"owned":8}')
+COMMIT
+INSERT INTO AUDIT VALUES(558,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":493.0,"ask":484.0,"volume":95000,"open":600.0,"shares":55940},"date":1597143255725,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(559,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":304.0,"ask":288.0,"volume":98000,"open":650.0,"shares":56582},"date":1597143255727,"amount":4,"owned":12}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(560,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":294.0,"ask":279.0,"volume":98000,"open":650.0,"shares":56582},"date":1597143258731,"amount":4,"owned":16}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(561,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":585.0,"ask":593.0,"volume":95000,"open":600.0,"shares":55940},"date":1597143258731,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(562,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":242.0,"ask":256.0,"volume":98000,"open":650.0,"shares":56582},"date":1597143261731,"amount":4,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(563,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":608.0,"ask":635.0,"volume":95000,"open":600.0,"shares":55940},"date":1597143261730,"amount":5,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(564,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":573.0,"ask":538.0,"volume":95000,"open":600.0,"shares":55940},"date":1597143264729,"amount":5,"owned":25}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(565,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":232.0,"ask":232.0,"volume":98000,"open":650.0,"shares":56582},"date":1597143264730,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(566,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":477.0,"ask":486.0,"volume":95000,"open":600.0,"shares":55940},"date":1597143267730,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(567,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":179.0,"ask":186.0,"volume":98000,"open":650.0,"shares":56667},"date":1597143267730,"amount":4,"owned":12}')
+COMMIT
+INSERT INTO AUDIT VALUES(568,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":389.0,"ask":421.0,"volume":95000,"open":600.0,"shares":56011},"date":1597143270727,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(569,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":150.0,"ask":153.0,"volume":98000,"open":650.0,"shares":56667},"date":1597143270727,"amount":4,"owned":16}')
+COMMIT
+INSERT INTO AUDIT VALUES(570,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":344.0,"ask":323.0,"volume":95000,"open":600.0,"shares":56011},"date":1597143273727,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(571,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":228.0,"ask":226.0,"volume":98000,"open":650.0,"shares":56742},"date":1597143273727,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(572,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":446.0,"ask":490.0,"volume":95000,"open":600.0,"shares":56011},"date":1597143276729,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(573,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":237.0,"ask":222.0,"volume":98000,"open":650.0,"shares":56820},"date":1597143276729,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(574,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":579.0,"ask":543.0,"volume":95000,"open":600.0,"shares":56108},"date":1597143279730,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(575,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":227.0,"ask":245.0,"volume":98000,"open":650.0,"shares":56867},"date":1597143279730,"amount":4,"owned":28}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(576,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":198.0,"ask":194.0,"volume":98000,"open":650.0,"shares":56867},"date":1597143282726,"amount":4,"owned":24}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(577,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":412.0,"ask":422.0,"volume":95000,"open":600.0,"shares":56139},"date":1597143282726,"amount":5,"owned":15}')
+COMMIT
+INSERT INTO AUDIT VALUES(578,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":547.0,"ask":545.0,"volume":95000,"open":600.0,"shares":56160},"date":1597143285728,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(579,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":178.0,"ask":186.0,"volume":98000,"open":650.0,"shares":56867},"date":1597143285728,"amount":4,"owned":20}')
+COMMIT
+INSERT INTO AUDIT VALUES(580,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":582.0,"ask":608.0,"volume":95000,"open":600.0,"shares":56160},"date":1597143288726,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(581,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":171.0,"ask":163.0,"volume":98000,"open":650.0,"shares":56917},"date":1597143288727,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(582,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":607.0,"ask":597.0,"volume":95000,"open":600.0,"shares":56160},"date":1597143291731,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(583,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":204.0,"ask":184.0,"volume":98000,"open":650.0,"shares":56957},"date":1597143291732,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(584,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":512.0,"ask":501.0,"volume":95000,"open":600.0,"shares":56160},"date":1597143294726,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(585,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":149.0,"ask":147.0,"volume":98000,"open":650.0,"shares":56957},"date":1597143294726,"amount":4,"owned":24}')
+COMMIT
+INSERT INTO AUDIT VALUES(586,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":550.0,"ask":571.0,"volume":95000,"open":600.0,"shares":56160},"date":1597143297724,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(587,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":135.0,"ask":128.0,"volume":98000,"open":650.0,"shares":56957},"date":1597143297725,"amount":4,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(588,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":155.0,"ask":160.0,"volume":98000,"open":650.0,"shares":56957},"date":1597143300726,"amount":4,"owned":24}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(589,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":585.0,"ask":579.0,"volume":95000,"open":600.0,"shares":56250},"date":1597143300726,"amount":5,"owned":15}')
+COMMIT
+INSERT INTO AUDIT VALUES(590,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":696.0,"ask":653.0,"volume":95000,"open":600.0,"shares":56250},"date":1597143303727,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(591,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":133.0,"ask":128.0,"volume":98000,"open":650.0,"shares":56957},"date":1597143303728,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(592,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":596.0,"ask":585.0,"volume":95000,"open":600.0,"shares":56250},"date":1597143306727,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(593,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":155.0,"ask":170.0,"volume":98000,"open":650.0,"shares":56957},"date":1597143306728,"amount":4,"owned":24}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(594,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":577.0,"ask":611.0,"volume":95000,"open":600.0,"shares":56250},"date":1597143309724,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(595,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":191.0,"ask":176.0,"volume":98000,"open":650.0,"shares":56957},"date":1597143309725,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(596,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":218.0,"ask":210.0,"volume":98000,"open":650.0,"shares":56957},"date":1597143312725,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(597,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":174.0,"ask":188.0,"volume":98000,"open":650.0,"shares":56978},"date":1597143315726,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(598,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":432.0,"ask":452.0,"volume":95000,"open":600.0,"shares":56361},"date":1597143318726,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(599,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":145.0,"ask":144.0,"volume":98000,"open":650.0,"shares":56978},"date":1597143318726,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(600,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":401.0,"ask":420.0,"volume":95000,"open":600.0,"shares":56361},"date":1597143321729,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(601,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":223.0,"ask":210.0,"volume":98000,"open":650.0,"shares":56978},"date":1597143321731,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(602,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":302.0,"ask":319.0,"volume":95000,"open":600.0,"shares":56361},"date":1597143324724,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(603,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":243.0,"ask":245.0,"volume":98000,"open":650.0,"shares":56978},"date":1597143324724,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(604,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":456.0,"ask":462.0,"volume":95000,"open":600.0,"shares":56412},"date":1597143327729,"amount":5,"owned":10}')
+COMMIT
+INSERT INTO AUDIT VALUES(605,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":216.0,"ask":212.0,"volume":98000,"open":650.0,"shares":57076},"date":1597143327731,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(606,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":470.0,"ask":459.0,"volume":95000,"open":600.0,"shares":56454},"date":1597143330728,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(607,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":213.0,"ask":205.0,"volume":98000,"open":650.0,"shares":57076},"date":1597143330729,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(608,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":407.0,"ask":392.0,"volume":95000,"open":600.0,"shares":56454},"date":1597143333724,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(609,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":246.0,"ask":248.0,"volume":98000,"open":650.0,"shares":57076},"date":1597143333724,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(610,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":520.0,"ask":528.0,"volume":95000,"open":600.0,"shares":56505},"date":1597143336725,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(611,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":221.0,"ask":219.0,"volume":98000,"open":650.0,"shares":57076},"date":1597143336726,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(612,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":572.0,"ask":577.0,"volume":95000,"open":600.0,"shares":56505},"date":1597143339726,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(613,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":196.0,"ask":187.0,"volume":98000,"open":650.0,"shares":57076},"date":1597143339727,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(614,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":459.0,"ask":462.0,"volume":95000,"open":600.0,"shares":56505},"date":1597143342727,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(615,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":260.0,"ask":277.0,"volume":98000,"open":650.0,"shares":57100},"date":1597143342728,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(616,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":396.0,"ask":408.0,"volume":95000,"open":600.0,"shares":56595},"date":1597143345724,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(617,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":234.0,"ask":240.0,"volume":98000,"open":650.0,"shares":57101},"date":1597143345725,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(618,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":220.0,"ask":231.0,"volume":98000,"open":650.0,"shares":57106},"date":1597143348724,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(619,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":271.0,"ask":256.0,"volume":98000,"open":650.0,"shares":57106},"date":1597143351726,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(620,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":292.0,"ask":274.0,"volume":98000,"open":650.0,"shares":57106},"date":1597143354723,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(621,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":253.0,"ask":255.0,"volume":98000,"open":650.0,"shares":57147},"date":1597143357727,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(622,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":296.0,"ask":301.0,"volume":98000,"open":650.0,"shares":57147},"date":1597143360728,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(623,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":615.0,"ask":641.0,"volume":95000,"open":600.0,"shares":56760},"date":1597143363723,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(624,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":237.0,"ask":231.0,"volume":98000,"open":650.0,"shares":57193},"date":1597143363723,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(625,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":557.0,"ask":555.0,"volume":95000,"open":600.0,"shares":56787},"date":1597143366723,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(626,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":268.0,"ask":268.0,"volume":98000,"open":650.0,"shares":57193},"date":1597143366724,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(627,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":693.0,"ask":695.0,"volume":95000,"open":600.0,"shares":56787},"date":1597143369722,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(628,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":218.0,"ask":213.0,"volume":98000,"open":650.0,"shares":57193},"date":1597143369723,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(629,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":685.0,"ask":696.0,"volume":95000,"open":600.0,"shares":56787},"date":1597143372727,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(630,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":196.0,"ask":180.0,"volume":98000,"open":650.0,"shares":57204},"date":1597143372727,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(631,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":246.0,"ask":253.0,"volume":98000,"open":650.0,"shares":57248},"date":1597143375723,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(632,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":303.0,"ask":307.0,"volume":98000,"open":650.0,"shares":57248},"date":1597143378723,"amount":4,"owned":48}')
+COMMIT
+INSERT INTO AUDIT VALUES(633,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":260.0,"ask":273.0,"volume":98000,"open":650.0,"shares":57248},"date":1597143381728,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(634,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":758.0,"ask":726.0,"volume":95000,"open":600.0,"shares":56793},"date":1597143384721,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(635,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":313.0,"ask":315.0,"volume":98000,"open":650.0,"shares":57288},"date":1597143384721,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(636,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":704.0,"ask":703.0,"volume":95000,"open":600.0,"shares":56880},"date":1597143387726,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(637,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":281.0,"ask":264.0,"volume":98000,"open":650.0,"shares":57288},"date":1597143387726,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(638,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":663.0,"ask":645.0,"volume":95000,"open":600.0,"shares":56942},"date":1597143390724,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(639,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":335.0,"ask":332.0,"volume":98000,"open":650.0,"shares":57381},"date":1597143390725,"amount":4,"owned":48}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(640,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":279.0,"ask":284.0,"volume":98000,"open":650.0,"shares":57389},"date":1597143393726,"amount":4,"owned":44}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(641,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":596.0,"ask":609.0,"volume":95000,"open":600.0,"shares":56942},"date":1597143393725,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(642,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":689.0,"ask":696.0,"volume":95000,"open":600.0,"shares":56942},"date":1597143396726,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(643,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":339.0,"ask":340.0,"volume":98000,"open":650.0,"shares":57452},"date":1597143396726,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(644,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":564.0,"ask":597.0,"volume":95000,"open":600.0,"shares":56942},"date":1597143399721,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(645,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":359.0,"ask":349.0,"volume":98000,"open":650.0,"shares":57532},"date":1597143399721,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(646,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":680.0,"ask":667.0,"volume":95000,"open":600.0,"shares":56942},"date":1597143402725,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(647,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":294.0,"ask":295.0,"volume":98000,"open":650.0,"shares":57629},"date":1597143402726,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(648,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":588.0,"ask":586.0,"volume":95000,"open":600.0,"shares":56998},"date":1597143405720,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(649,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":268.0,"ask":261.0,"volume":98000,"open":650.0,"shares":57728},"date":1597143405721,"amount":4,"owned":28}')
+COMMIT
+INSERT INTO AUDIT VALUES(650,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":261.0,"ask":242.0,"volume":98000,"open":650.0,"shares":57748},"date":1597143408726,"amount":4,"owned":32}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(651,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":523.0,"ask":526.0,"volume":95000,"open":600.0,"shares":56998},"date":1597143408726,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(652,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":477.0,"ask":522.0,"volume":95000,"open":600.0,"shares":56998},"date":1597143411721,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(653,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":320.0,"ask":310.0,"volume":98000,"open":650.0,"shares":57783},"date":1597143411721,"amount":4,"owned":36}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(654,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":564.0,"ask":569.0,"volume":95000,"open":600.0,"shares":56998},"date":1597143414725,"amount":5,"owned":5}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(655,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":269.0,"ask":270.0,"volume":98000,"open":650.0,"shares":57802},"date":1597143414725,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(656,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":520.0,"ask":514.0,"volume":95000,"open":600.0,"shares":56998},"date":1597143417721,"amount":5,"owned":0}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(657,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":334.0,"ask":332.0,"volume":98000,"open":650.0,"shares":57802},"date":1597143417722,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(658,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":359.0,"ask":346.0,"volume":98000,"open":650.0,"shares":57802},"date":1597143420721,"amount":4,"owned":32}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(659,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":393.0,"ask":382.0,"volume":98000,"open":650.0,"shares":57802},"date":1597143423720,"amount":4,"owned":36}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(660,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":516.0,"ask":498.0,"volume":95000,"open":600.0,"shares":57017},"date":1597143423719,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(661,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":493.0,"ask":500.0,"volume":95000,"open":600.0,"shares":57107},"date":1597143426720,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(662,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":342.0,"ask":326.0,"volume":98000,"open":650.0,"shares":57802},"date":1597143426721,"amount":4,"owned":40}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(663,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":401.0,"ask":437.0,"volume":95000,"open":600.0,"shares":57201},"date":1597143429719,"amount":5,"owned":15}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(664,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":306.0,"ask":299.0,"volume":98000,"open":650.0,"shares":57811},"date":1597143429720,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(665,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":492.0,"ask":477.0,"volume":95000,"open":600.0,"shares":57300},"date":1597143432725,"amount":5,"owned":10}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(666,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":273.0,"ask":265.0,"volume":98000,"open":650.0,"shares":57811},"date":1597143432725,"amount":4,"owned":32}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(667,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":246.0,"ask":249.0,"volume":98000,"open":650.0,"shares":57811},"date":1597143435721,"amount":4,"owned":28}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(668,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":518.0,"ask":481.0,"volume":95000,"open":600.0,"shares":57320},"date":1597143435721,"amount":5,"owned":5}')
+COMMIT
+INSERT INTO AUDIT VALUES(669,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":580.0,"ask":586.0,"volume":95000,"open":600.0,"shares":57399},"date":1597143438722,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(670,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":313.0,"ask":312.0,"volume":98000,"open":650.0,"shares":57811},"date":1597143438724,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(671,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":350.0,"ask":359.0,"volume":98000,"open":650.0,"shares":57811},"date":1597143441723,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(672,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":354.0,"ask":366.0,"volume":98000,"open":650.0,"shares":57908},"date":1597143444724,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(673,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":724.0,"ask":691.0,"volume":95000,"open":600.0,"shares":57529},"date":1597143447724,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(674,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":307.0,"ask":310.0,"volume":98000,"open":650.0,"shares":57908},"date":1597143447724,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(675,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":744.0,"ask":756.0,"volume":95000,"open":600.0,"shares":57529},"date":1597143450724,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(676,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":302.0,"ask":297.0,"volume":98000,"open":650.0,"shares":57908},"date":1597143450724,"amount":4,"owned":40}')
+COMMIT
+INSERT INTO AUDIT VALUES(677,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":641.0,"ask":633.0,"volume":95000,"open":600.0,"shares":57529},"date":1597143453722,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(678,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":286.0,"ask":279.0,"volume":98000,"open":650.0,"shares":57939},"date":1597143453722,"amount":4,"owned":44}')
+COMMIT
+INSERT INTO AUDIT VALUES(679,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":624.0,"ask":623.0,"volume":95000,"open":600.0,"shares":57602},"date":1597143456718,"amount":5,"owned":20}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(680,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":291.0,"ask":294.0,"volume":98000,"open":650.0,"shares":57943},"date":1597143456719,"amount":4,"owned":48}')
+COMMIT
+INSERT INTO AUDIT VALUES(681,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":593.0,"ask":593.0,"volume":95000,"open":600.0,"shares":57602},"date":1597143459723,"amount":5,"owned":15}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(682,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":278.0,"ask":293.0,"volume":98000,"open":650.0,"shares":57943},"date":1597143459724,"amount":4,"owned":44}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(683,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":329.0,"ask":324.0,"volume":98000,"open":650.0,"shares":58004},"date":1597143462720,"amount":4,"owned":40}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(684,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":497.0,"ask":488.0,"volume":95000,"open":600.0,"shares":57602},"date":1597143462720,"amount":5,"owned":10}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(685,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":469.0,"ask":438.0,"volume":95000,"open":600.0,"shares":57602},"date":1597143465725,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(686,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":283.0,"ask":292.0,"volume":98000,"open":650.0,"shares":58004},"date":1597143465725,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(687,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":401.0,"ask":417.0,"volume":95000,"open":600.0,"shares":57633},"date":1597143468721,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(688,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":244.0,"ask":253.0,"volume":98000,"open":650.0,"shares":58037},"date":1597143468721,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(689,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":322.0,"ask":316.0,"volume":98000,"open":650.0,"shares":58048},"date":1597143471740,"amount":4,"owned":36}')
+COMMIT
+INSERT INTO AUDIT VALUES(690,'{"action":"BUY","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":278.0,"ask":286.0,"volume":95000,"open":600.0,"shares":57717},"date":1597143474720,"amount":5,"owned":5}')
+COMMIT
+/*C5*/INSERT INTO AUDIT VALUES(691,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":360.0,"ask":357.0,"volume":98000,"open":650.0,"shares":58133},"date":1597143474721,"amount":4,"owned":32}')
+COMMIT
+INSERT INTO AUDIT VALUES(692,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"MCH","name":"MacroHard","bid":218.0,"ask":220.0,"volume":95000,"open":600.0,"shares":57717},"date":1597143477721,"amount":5,"owned":0}')
+COMMIT
+/*C7*/INSERT INTO AUDIT VALUES(693,'{"action":"SELL","quote":{"exchange":"vert.x stock exchange","symbol":"DVN","name":"Divinator","bid":383.0,"ask":383.0,"volume":98000,"open":650.0,"shares":58133},"date":1597143477721,"amount":4,"owned":28}')
+COMMIT
